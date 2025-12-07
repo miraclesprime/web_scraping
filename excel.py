@@ -8,7 +8,6 @@ import requests
 from bs4 import BeautifulSoup # type: ignore
 from openpyxl import load_workbook
 from detect import *
-from web_scrapy import *
 
 def url_connect(weburl):
     page = "error"
